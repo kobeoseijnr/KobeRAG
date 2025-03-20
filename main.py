@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 from sentence_transformers import SentenceTransformer, util
 from rank_bm25 import BM25Okapi
 import torch
-from langchain_ollama import OllamaLLM  # Optional for local summarization
+from langchain_ollama import OllamaLLM  # Optional for local summarization but takes so much time
 
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'

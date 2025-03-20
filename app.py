@@ -8,6 +8,7 @@ from transformers import pipeline
 import torch
 import time
 
+#using torch but gpu was not availabe so had to restarct it
 app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
